@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anisa Longe - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .resume-container {
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 30px;
+            margin: 20px 0;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #3498db;
+            margin: 25px 0 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin: 20px 0 10px;
+        }
+
+        h4 {
+            color: #3498db;
+            margin: 15px 0 5px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 15px 0;
+        }
+
+        .profile {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .profile-list {
+            columns: 2;
+            column-gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .profile-list {
+                columns: 1;
+            }
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .company {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .date-range {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .skill-category {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        .divider {
+            border-top: 1px solid #ecf0f1;
+            margin: 15px 0;
+        }
+
+        .experience-details {
+            margin-top: 10px;
+        }
+
+            .experience-details p {
+                margin-bottom: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>ANISA LONGE</h1>
+            <p><strong>Certified Scrum Master</strong></p>
+            <div class="contact-info">
+                <p><a href="mailto:aalonge2@gmail.com">aalonge2@gmail.com</a></p>
+                <p><a href="tel:5132525297">513 252.5297</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>PROFESSIONAL PROFILE</h2>
+            <div class="profile">
+                <ul class="profile-list">
+                    <li>Certified Scrum Master (CSM) - Scrum Alliance</li>
+                    <li>Cross Functional and Complex Business Project Expertise</li>
+                    <li>Six Sigma Blackbelt with over 8 years of experience in DMAIC and Lean Six Sigma</li>
+                    <li>Certified Master Project Manager™ - American Academy of Project Management</li>
+                    <li>Agile Project Manager for enterprise and capital corporate projects with offshore development teams</li>
+                    <li>Development of work breakdown structures, project work plans, program charters and risk plans for projects</li>
+                    <li>Knowledge of quality improvement disciplines and practices</li>
+                    <li>Continuous improvement practitioner and change agent</li>
+                    <li>Able to work within tight deadlines and deliver multiple projects in a global environment</li>
+                    <li>Strong analytical, problem solving, organizational and communication skills</li>
+                    <li>Knowledge of risk management concepts and risk analysis related to master schedules</li>
+                    <li>Key Personal Strengths defined by Gallup Assessment: <em>Deliberative, Relator, Strategic, Analytical</em></li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>WORK EXPERIENCE</h2>
+
+            <div class="experience-item">
+                <h3 class="company">University of Cincinnati</h3>
+                <p class="date-range">November 2014 – Present</p>
+                <p class="job-title">Scrum Master Analyst 2, Application Development, IDEAS-DTS</p>
+
+                <div class="experience-details">
+                    <p>Scrum Master for the College of Medicine Applications managed by IDEAS, University of Cincinnati Treasury Portal (UCT), and the UC Corporate Dashboard project.</p>
+                    <p>UC AI Enablement Committee Member - AI Enablement</p>
+                    <p>Lead UC AI Listening & Literacy Tours to introduce UC faculty and staff to the UC AI tools and roadmap. Answer AI questions from faculty and staff regarding approved AI tools. Provide project support for BearcatGPT Pilot.</p>
+                    <p>Responsible for applying the Agile Methodology to assigned projects for departments and the DTS Enterprise at University of Cincinnati. Responsible for conducting research at the request of the project stakeholders. Conduct business analyses, develop project estimates, project business requirements, features, user stories, sprints, and project backlogs. Conduct Agile Project Planning, Review and Retrospective meetings with the project teams and stakeholders. Resolve production issues with customers as needed to meet IDEAS Service Level Agreements.</p>
+                    <p>Scrum Master for the ShareIT Program with STEM Cincinnati Public High Schools. Assist students with developing and applying user stories, goals, and tasks to manage their assigned IT projects. Develop Agile training documents for reference materials for the students. Present the Artificial Intelligence sessions with hands-on learning activities.</p>
+                </div>
+
+                <p><strong>Software used:</strong> AWS QuickSight, PowerBI, Jira, RallyDev, TeamDynamix SharePoint, Trello, Box.com, MSQL, CRMS, and other proprietary UC applications</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="experience-item">
+                <h3 class="company">Fusion Alliance Consulting</h3>
+                <p class="date-range">August 2013 – October 2014</p>
+                <p class="job-title">Project Manager/Coordinator, TriHealth Hospitals, IS Department</p>
+
+                <div class="experience-details">
+                    <p>Managed the Comprehensive Primary Care Initiative (CPCi) project milestone requirements, scope, schedule and delivery of project artifacts. Developed workflow diagrams for CPCi milestones. Project Manager for the Epic MyChart Ambulatory project.</p>
+                    <p>Led weekly CPCi Project Status Report meetings. Job Responsibilities: Achieved operational objectives by planning, scheduling and documenting the successful completion of CPCi milestone deliverables. Provided recommendations for the strategic completion of data warehouse deliverables. Assisted the BI team in resolving the delivery of key milestone reports. Prepared and managed project schedules; documented and tracked issues and tasks for follow up with the clinical team members (non-IT).</p>
+                    <p>Interacted with multiple stakeholders, internal, and external clients to gain thorough understanding of project clinical objectives and "business questions," maintained open communication and flexibility regarding deadlines, and tracked practice level additional requests or adjustments. Monitored post implementation progress and results in practice service and business systems. Worked with project Subject Matter Experts to identify educational/change management needs of their organizations related to patient communications and the designs educational materials or other interventions to meet the identified need.</p>
+                    <p>Worked with project teams and Performance Improvement staff to develop and document workflows and protocols for the Transitions of Care and Advanced Care Planning delivery models.</p>
+                    <p>Gathered and documented stakeholder requirements for system improvements to the Epic MyChart Patient Self Scheduling project. Set up and maintained project SharePoint site. Met the schedule-constrained Go Live date. led the post Go Live Issues Resolution meeting with the customer and stakeholders. Escalated project issues with resources and scope to the project director.</p>
+                </div>
+
+                <p><strong>Software used:</strong> MS Project 2010 Server, SharePoint 2010, Office 2010, MyChart (test environment)</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="experience-item">
+                <h3 class="company">Cohesion (Standard Register Corporation)</h3>
+                <p class="date-range">June 2013 – August 2013</p>
+                <p class="job-title">Project Manager, Project Management Office</p>
+
+                <div class="experience-details">
+                    <p>Managed the Initiation phase of the Salesforce.com Customer Service Project. Responsible for the development and formal presentation of the Business Problem to senior management to request project funding, vendor contract signoff and stakeholder support.</p>
+                    <p>Developed project schedule, secured IT team resource project hours, and prepared a project resource estimate of hours. Developed and presented the weekly project status report to senior management, reporting the project budget, project accomplishments.</p>
+                    <p>Documented the analysis of the business problems, including operational, economic and technical aspects, and whether it could be solved effectively using internal resources. Presented the results of the study to senior management to determine whether the solution should be implemented.</p>
+                    <p>Developed the high level project schedule, incorporating the vendor team tasks and resources.</p>
+                    <p>Presented project proposal and funding request to senior vice president, project sponsor and CIO.</p>
+                    <p>Planned and executed Project Kick Off meeting with the vendor and IT team.</p>
+                </div>
+            </div>
+
+            <!-- Additional work experiences available -->
+
+        </section>
+
+        <section>
+            <h2 style="border-bottom: 1px solid black;">EDUCATION</h2>
+            <table>
+                <tr>
+                    <th>Institution</th>
+                    <th>Degree/Certificate</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>University of Cincinnati, Cincinnati, Ohio</td>
+                    <td>MS, Information Systems, AI in Business Certificate</td>
+                    <td>2027</td>
+                </tr>
+                <tr>
+                    <td>University of Cincinnati, Cincinnati, Ohio</td>
+                    <td>MS, Information Technology</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Raymond Walters College, Cincinnati, OH</td>
+                    <td>Six Sigma Methodologies, Blackbelt</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>McGregor University, Yellow Springs, OH</td>
+                    <td>Organizational Communication MA candidate</td>
+                    <td>2Yrs</td>
+                </tr>
+                <tr>
+                    <td>Wright State University, Dayton, OH</td>
+                    <td>BA, Communications</td>
+                    <td>Completed</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>SKILLS & CERTIFICATIONS</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Certifications</h4>
+                    <ul>
+                        <li>Certified Scrum Master (CSM)</li>
+                        <li>Six Sigma Blackbelt</li>
+                        <li>Certified Master Project Manager™</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Methodologies</h4>
+                    <ul>
+                        <li>Agile Methodology</li>
+                        <li>Scrum Framework</li>
+                        <li>DMAIC</li>
+                        <li>Lean Six Sigma</li>
+                        <li>SDLC</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Software & Tools</h4>
+                    <ul>
+                        <li>MS Project</li>
+                        <li>SharePoint</li>
+                        <li>Jira</li>
+                        <li>PowerBI</li>
+                        <li>AWS QuickSight</li>
+                        <li>Salesforce CRM</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p style="text-decoration: underline;">References available upon request</p>
+            <p>Connect with me on <a href="#">LinkedIn</a> | Email: <a href="mailto:aalonge2@gmail.com">aalonge2@gmail.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
